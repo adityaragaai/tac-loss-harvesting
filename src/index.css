@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary-blue: #2563eb;
+  --color-success-green: #22c55e;
+  --color-danger-red: #ef4444;
+  --color-background: #f8fafc;
+  --color-card-bg: #ffffff;
+  
+  --color-dark-bg: #0f172a;
+  --color-dark-card: #1e293b;
+  --color-dark-border: #334155;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-slate-900 font-sans antialiased transition-colors duration-300;
+  }
+  
+  .dark body {
+    @apply bg-[#0b0e14] text-slate-100;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border border-white/20 dark:border-slate-700/30 shadow-xl rounded-2xl;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-200 transform hover:scale-[1.02] active:scale-[0.98];
+  }
+  
+  .stat-label {
+    @apply text-sm font-medium text-slate-500 uppercase tracking-wider;
+  }
+  
+  .stat-value {
+    @apply text-2xl font-bold text-slate-900;
+  }
+}
