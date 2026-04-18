@@ -19,13 +19,16 @@ A premium, interactive financial dashboard built to help investors optimize thei
 
 ## 📸 Screenshots
 
-| 🖥️ Desktop View | 📱 Mobile View |
+### 🖥️ Desktop Experience
+
+| Dark Mode Dashboard | Interactive Holdings |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/508eb97b-d778-41fb-a3f7-4c2f94035b80" width="100%" /> | <img src="https://github.com/user-attachments/assets/d45be988-43d0-40a5-a15c-5a1fa56580ee" width="220px" /> |
+| <img src="https://github.com/user-attachments/assets/508eb97b-d778-41fb-a3f7-4c2f94035b80" width="100%" /> | <img src="https://github.com/user-attachments/assets/a474354e-51b1-488c-b698-7b8af1b4728a" width="100%" /> |
+
+### 📱 Mobile View
 
 <p align="center">
-  <i>Interactive Holdings & Data Management</i><br/>
-  <img src="https://github.com/user-attachments/assets/a474354e-51b1-488c-b698-7b8af1b4728a" width="80%" />
+  <img src="https://github.com/user-attachments/assets/d45be988-43d0-40a5-a15c-5a1fa56580ee" width="300px" alt="Mobile View" />
 </p>
 
 
