@@ -1,16 +1,92 @@
-# React + Vite
+# 📈 Tax Loss Harvesting Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, interactive financial dashboard built to help investors optimize their tax burden through smart tax-loss harvesting. This tool calculates potential tax savings in real-time by simulating the sale of specific assets from a portfolio.
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://tac-loss-harvesting.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **🚀 Premium Experience**: Smooth splash screen and transitions powered by Framer Motion.
+- **🌓 Adaptive UI**: Full support for Dark and Light modes with a seamless theme toggle.
+- **📊 Real-time Analytics**: Compare "Pre-Harvesting" and "After-Harvesting" scenarios instantly.
+- **🎯 Asset Selection**: Interactive holdings table allowing granular selection of stocks/mutual funds.
+- **💰 Tax Savings Calculation**: Dynamic calculation of STCG (Short Term Capital Gains) and LTCG (Long Term Capital Gains) savings.
+- **📱 Fully Responsive**: Optimized for all devices, from desktops to mobile phones.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+
+> [!TIP]
+> Add your own screenshot links here once you have them!
+
+| Dark Mode Dashboard | Interactive Holdings |
+| :---: | :---: |
+| ![Dashboard Screenshot](https://via.placeholder.com/800x450/0b0e14/ffffff?text=Tax+Loss+Harvesting+Dark+Mode) | ![Table Screenshot](https://via.placeholder.com/800x450/0b0e14/ffffff?text=Interactive+Holdings+Table) |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [React 19](https://react.dev/)
+- **Bundler**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Utilities**: `clsx`, `tailwind-merge`
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally on your machine.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/tax-loss-harvesting.git
+   cd tax-loss-harvesting
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 💡 How it Works
+
+1. **Dashboard Load**: The app fetches mock financial data and displays your current capital gains profile.
+2. **Selection**: Select assets from the **Holdings Table** that you intend to harvest (sell).
+3. **Comparison**: The "After Harvesting" card updates in real-time to show your new tax position and the total **Savings** achieved.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  Built with ❤️ for precision financial planning.
+</p>
